@@ -1,0 +1,225 @@
+[{
+  "_id": {
+    "$oid": "66d16d206661596bf09381a6"
+  },
+  "const": "const",
+  "express": "mongoose",
+  "=": "=",
+  "require('express');": "require('mongoose');"
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381a7"
+  },
+  "const": "const",
+  "express": "bodyParser",
+  "=": "=",
+  "require('express');": "require('body-parser');"
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381a8"
+  },
+  "const": "const",
+  "express": "cors",
+  "=": "=",
+  "require('express');": "require('cors');"
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381a9"
+  },
+  "const": "const",
+  "express": "User",
+  "=": "=",
+  "require('express');": "require('./models/User');"
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381aa"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381ab"
+  },
+  "const": "const",
+  "express": "app",
+  "=": "=",
+  "require('express');": "express();"
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381ac"
+  },
+  "const": "const",
+  "express": "PORT",
+  "=": "=",
+  "require('express');": "process.env.PORT"
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381ad"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381ae"
+  },
+  "const": "//",
+  "express": "Middleware"
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381af"
+  },
+  "const": "app.use(bodyParser.json());"
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381b0"
+  },
+  "const": "app.use(cors());"
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381b1"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381b2"
+  },
+  "const": "//",
+  "express": "MongoDB",
+  "=": "connection"
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381b3"
+  },
+  "const": "mongoose.connect('mongodb://localhost:27017/mydatabase',",
+  "express": "{",
+  "=": "useNewUrlParser:",
+  "require('express');": "true,"
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381b4"
+  },
+  "=": ".then(()",
+  "require('express');": "=>"
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381b5"
+  },
+  "=": ".catch(err",
+  "require('express');": "=>"
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381b6"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381b7"
+  },
+  "const": "//",
+  "express": "Routes"
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381b8"
+  },
+  "const": "app.post('/register',",
+  "express": "async",
+  "=": "(req,",
+  "require('express');": "res)"
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381b9"
+  },
+  "=": "const",
+  "require('express');": "{"
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381ba"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381bb"
+  },
+  "=": "try",
+  "require('express');": "{"
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381bc"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381bd"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381be"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381bf"
+  },
+  "=": "}",
+  "require('express');": "catch"
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381c0"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381c1"
+  },
+  "=": "}"
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381c2"
+  },
+  "const": "});"
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381c3"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381c4"
+  },
+  "const": "app.listen(PORT,",
+  "express": "()",
+  "=": "=>",
+  "require('express');": "{"
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381c5"
+  },
+  "=": "console.log(`Server",
+  "require('express');": "running"
+},
+{
+  "_id": {
+    "$oid": "66d16d206661596bf09381c6"
+  },
+  "const": "});"
+}]
